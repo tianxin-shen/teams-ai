@@ -1,0 +1,46 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "81ef9125-a963-49f6-8580-4c1324b506d5",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/termofuse",
+        "termsOfUseUrl": "https://www.example.com/privacy"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "TestTeamsBot-local",
+        "full": "full name for TestTeamsBot"
+    },
+    "description": {
+        "short": "short description for TestTeamsBot",
+        "full": "full description for TestTeamsBot"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "8bc7cb5f-13fc-4301-a5a2-0f6475d07c6b",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
